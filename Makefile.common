@@ -29,6 +29,8 @@ SOURCES_C   := \
 				 $(CORE_DIR)/minivmac/src/MOUSEMDV.c \
 				 $(CORE_DIR)/minivmac/src/PROGMAIN.c \
 				 $(CORE_DIR)/minivmac/src/OSGLUERETRO.c \
+				 $(CORE_DIR)/libretro-common/streams/file_stream.c \
+	  			 $(CORE_DIR)/libretro-common/vfs/vfs_implementation.c
 				 $(CORE_DIR)/libretro/libretro-core.c \
 				 $(CORE_DIR)/libretro/retrostubs.c \
 				 $(GUI)/retro/SDL_gfxPrimitives.c \
@@ -45,8 +47,6 @@ SOURCES_C +=  \
   	  $(CORE_DIR)/libretro-common/file/file_path.c \
 	  $(CORE_DIR)/libretro-common/file/retro_dirent.c \
 	  $(CORE_DIR)/libretro-common/time/rtime.c \
-	  $(CORE_DIR)/libretro-common/streams/file_stream.c \
 	  $(CORE_DIR)/libretro-common/string/stdstring.c \
-	  $(CORE_DIR)/libretro-common/vfs/vfs_implementation.c
 
 endif
